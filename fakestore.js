@@ -59,4 +59,5 @@ function anadirImagenes(data){
   
 }
 document.getElementById("menor").addEventListener("click", () =>{
-  document.getElementById("myBtn").innerText;})
+  document.getElementById("myBtn").innerText;}
+  )
