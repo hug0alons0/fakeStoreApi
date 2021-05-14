@@ -58,3 +58,5 @@ function anadirImagenes(data){
   let imagenProducto = document.createElement("image")
   
 }
+document.getElementById("menor").addEventListener("click", () =>{
+  document.getElementById("myBtn").innerText;})
