@@ -60,15 +60,19 @@ body{
 @media screen and (min-width: 1199px) {
     .switchBtn{
         background-color: aliceblue;
-        margin: 5px;
+        margin: 5px, 8px;
         display: flex;
+        flex-direction: column;
     }
     .checkbox{
         border-radius: 5px;
+        padding : 50px
+        
     }
     
     
     
    
 }
+
 
