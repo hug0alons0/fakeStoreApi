@@ -19,3 +19,56 @@ body{
     border-radius: 10px;
     
 }
+
+
+
+/*Version Movil*/
+
+@media screen and (min-width: 320px) {
+    .switchBtn{
+        background-color: aliceblue;
+        margin: 5px;
+        display: flex;
+    }
+    
+   
+}
+
+
+
+/*Version Tablet*/
+
+@media screen and (min-width:768px ) {
+
+    .switchBtn{
+        background-color: aliceblue;
+        margin: 5px;
+        display: flex;
+    }
+    .checkbox{
+        border-radius: 5px;
+    }
+    
+  
+   
+   
+
+    
+}
+
+/*Dispositivos grandes*/
+@media screen and (min-width: 1199px) {
+    .switchBtn{
+        background-color: aliceblue;
+        margin: 5px;
+        display: flex;
+    }
+    .checkbox{
+        border-radius: 5px;
+    }
+    
+    
+    
+   
+}
+
