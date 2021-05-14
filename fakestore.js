@@ -63,3 +63,29 @@ document.getElementById("menor").addEventListener("click", () =>{
   document.getElementById("myBtn").innerText;}
   )
 
+  // function cambiarCategoria(value){
+  //   fetch(`https://fakestoreapi.com/products/category/${value}`)
+  //   .then(res=>res.json())
+  //   .then(json=>anadirLi(json)) 
+  // }
+
+
+  // document.getElementById("select").addEventListener("change", (event)=> {
+  //   console.log("on change del select", event.target.value)
+  //   let ulid = document.getElementById("ulid");
+  //   document.getElementById("producto").removeChild(ulid);
+  //   cambiarCategoria(event.target.value);
+  // } )
+  function cambiarCategoria(value){
+    fetch(`https://fakestoreapi.com/products/category/${value}`)
+    .then(res=>res.json())
+    .then(json=>anadirLi(json)) 
+  }
+
+
+  document.getElementById("select").addEventListener("change", (event)=> {
+    console.log("on change del select", event.target.value)
+    let ulid = document.getElementById("ulid");
+    document.getElementById("producto").removeChild(ulid);
+    cambiarCategoria(event.target.value);
+  } )
